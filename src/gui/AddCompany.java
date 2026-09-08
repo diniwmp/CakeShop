@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package gui;
 
 import javax.swing.JOptionPane;
@@ -451,7 +448,6 @@ public class AddCompany extends javax.swing.JFrame {
     }//GEN-LAST:event_jTable1MouseClicked
 
     private void jTable1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseEntered
-        // TODO add your handling code here:
     }//GEN-LAST:event_jTable1MouseEntered
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed

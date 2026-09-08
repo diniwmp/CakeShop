@@ -476,54 +476,7 @@ public class UpdateAllSupplier extends javax.swing.JFrame {
 
             }
         }
-//                    ResultSet resultSet = MySQL2.executeSearch("SELECT * FROM `supplier` WHERE `email` = '" + email + "' AND `mobile` !='" + mobile + "'");
-//
-//                    if (resultSet.next()) {
-//                        JOptionPane.showMessageDialog(this, "Email already used", "Warning", JOptionPane.WARNING_MESSAGE);
-//                    } else {
-//
-//                        String a;
-//
-//                        if (jLabel2.getText().equals(String.valueOf(jTable1.getValueAt(jTable1.getSelectedRow(), 4)))) {
-//                            //company update  not requeried
-//                            a = "";
-//                        } else {
-//                            //company update requeried
-//                            a = ",`company_id` ='" + companyId + "'";
-//                        }
-//
-//                        MySQL2.executeIUD("UPDATE `supplier` SET "
-//                                + "`first_name` = '" + fname + "' , `last_name` = '" + lname + "',`email` = '" + email + "' " + a + " WHERE `mobile` = '" + mobile + "'");
-//                        reset();
-//
-//                    }
-//
-//                    ResultSet resultSet = MySQL2.executeSearch("SELECT * FROM `supplier` WHERE  `mobile`='" + mobile + "'");
-//
-//                    boolean canUpdate = false;
-//
-//                    if (resultSet.next()) {
-//
-//                        if (!resultSet.getString("email").equals(email)) {
-//                            JOptionPane.showMessageDialog(this, "This Mobile number or NIC already used", "Warning", JOptionPane.WARNING_MESSAGE);
-//                        } else {
-//                            canUpdate = true;
-//                        }
-//
-//                    } else {
-//                        canUpdate = true;
-//                    }
-//                    if (canUpdate) {
-//
-//                        MySQL2.executeIUD("UPDATE `supplier` SET "
-//                                + "`first_name` = '" + fname + "' , `last_name` = '" + lname + "',`email` = '" + email + "',`mobile` = '" + mobile + "',`company_id`='" + companyMap.get(company) + "'");
-//
-//                        JOptionPane.showMessageDialog(this, "Successfully Updated", "Success", JOptionPane.INFORMATION_MESSAGE);
-//
-//                        loadSupplier();
-//                        reset();
-//                    }
-//                }
+
 
 
     }//GEN-LAST:event_btnUpdateActionPerformed

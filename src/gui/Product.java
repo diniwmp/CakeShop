@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package gui;
 
 import com.formdev.flatlaf.FlatIntelliJLaf;
@@ -752,7 +749,7 @@ public class Product extends javax.swing.JFrame {
             parameters.put("Parameter1", jLabel1.getText());
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/myshop", "root", "2003108");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/myshop", "root", "pw");
             JasperPrint report = JasperFillManager.fillReport("src/reports/ProductsNew.jasper", parameters, connection);
 
             JasperViewer.viewReport(report, false);
