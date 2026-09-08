@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package gui;
 
 import com.formdev.flatlaf.FlatIntelliJLaf;
@@ -29,8 +26,7 @@ public class AdminDashBoard extends javax.swing.JFrame {
         setDateTime();
         
         String fullName = x.get("firstName") + " " + x.get("lastName");
-//        jLabel2.setText(x.get("firstName") + " " + x.get("lastName"));
-//        jLabel4.setText(x.get("email"));
+
         jLabel20.setText(x.get("firstName") + " " + x.get("lastName"));
         jLabel21.setText(x.get("email"));
         selectedEmployeeName = fullName;

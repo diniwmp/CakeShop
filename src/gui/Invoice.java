@@ -222,7 +222,6 @@ public class Invoice extends javax.swing.JFrame {
     private double newPoints = 0;
 
     private void calculate() {
-        //settings
 
         if (discountField.getText().isEmpty()) {
             discount = 0;

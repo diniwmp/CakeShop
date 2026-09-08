@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package gui;
 
 import java.sql.ResultSet;
@@ -150,12 +147,7 @@ public class PnlProduct extends javax.swing.JFrame {
                 grn.getjLabel22().setText(String.valueOf(jTable1.getValueAt(row, 2)));
                 grn.getjLabel11().setText(String.valueOf(jTable1.getValueAt(row, 3)));
 
-//                 grn.getjFormattedTextField3().setValue(jTable1.getValueAt(row, 5).toString());
-//
-//                grn.getjLabel21().setText(String.valueOf(jTable1.getValueAt(row, 6)));
-//                grn.getjFormattedTextField1().grabFocus();
-//                grn.getjLabel14().setText(String.valueOf(jTable1.getValueAt(row, 7)));
-//                grn.getjLabel16().setText(String.valueOf(jTable1.getValueAt(row, 8)));
+
                 this.dispose();
             }
         }

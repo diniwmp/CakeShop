@@ -749,7 +749,6 @@ public class GRN extends javax.swing.JFrame {
 
             if (grnItemMap.get(txtProductId.getText()) == null) {
                 grnItemMap.put(txtProductId.getText(), grnItem);
-//            loadGRNItems(); 12.57 changes
             } else {
 
                 GRNItem found = grnItemMap.get(txtProductId.getText());
